@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Crystal Collectors</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type=text/css href="assets/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+</head>
+<body>
+    
+<div class="container">
+<div class="row">
+  
+  <div class="col-xs-12 col-md-6">
+    <h1>CRYSTAL COLLECTOR</h1> 
+        <h3>TARGET SCORE <span id='targetScore'> 0</span></h3>
+        <h3>YOUR SCORE <span id='yourScore'> 0</span></h3>
+</div>
+
+ <div class="col-xs-12 col-md-6">
+    <p>You will be given a random number at the start of the game.  There are four crystals below.  By clicking on a crystal you will add a specific amount of points to your total score.  You win the game by matching your total score to the ramdom number, you lose the game if your total score goes above the random number.</p>
+    <p>The value of each crystal is hidden from you until you click on it.  Each time when the game starts, the game will change the values of each crystal.</p>
+</div>
+    
+  <div class="col-xs-12 col-lg-3">
+   <input type="image" src="assets/images/sapphire.png" class="crystal" id="sapphire" value=4/>
+</div>
+    
+  
+  <div class="col-lg-3">
+    <input type="image" src="assets/images/rose.png" class="crystal" id="rose" value=8/>
+    </div>
+
+
+  <div class="col-lg-3">
+    <input type="image" src="assets/images/amethyst.png" class="crystal" id="amethyst" value=6/>
+</div>
+    
+  <div class="col-lg-3">
+    <input type="image" src="assets/images/opal.png" class="crystal" id="opal" value=2/>
+</div>
+</div>
+
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+	<script type='text/javascript' src='assets/main.js'></script>	
+</body>
+</html>
